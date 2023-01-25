@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Montserrat:wght@100;200;300;400;500&family=Poppins:wght@100;200;300;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Orbitron', sans-serif; 
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    padding: 10px;
+    /* background-color: black; */
+
+}
+.text-section{
+    height: 100%;
+    width: 67%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: #12c2e9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    ;
+    flex-direction: column;
+    color: white;
+}
+.textarea{
+    text-align: center;
+}
+.textarea h1{
+    font-size: 11vw;
+    margin-bottom: 25px;
+    text-align: center;
+    /* padding-top: 80px; */
+    font-weight: 500;
+    font-family: 'Chakra Petch', sans-serif;
+}
+.textarea h2{
+    font-size: 5VW;
+    font-weight: lighter;
+    margin-bottom: 16px;
+}
+.textarea p{
+    font-size: 1.6vw;
+    font-weight:600; 
+} 
+.form-login-section{
+    width: 33%;
+    height: 100%;
+    background-color: white;
+}
+.login-form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fff;
+}
+.login-form img {
+    margin-top: 80px;
+    margin-bottom: 38px;
+    width: 27%;
+}
+
+.login-form h1 {
+    margin-bottom: 85px;
+    font-size: 2vw;
+}
+.emailbox {
+    width: 68%;
+    padding: 8px;
+    border: none;
+    border-bottom: 1px solid grey;
+    margin-bottom: 27px;
+}
+ .login-form .next {
+    width: 70%;
+    height: 48px;
+    background-color: #3399CC;
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 28px;
+    color: white;
+    font-size: large;
+    cursor: pointer;
+    padding: 6px;
+}
+.login-links{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.login2{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login1{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login1 input{
+    margin-right: 5px;
+}
+.create-btn{
+    margin-top: 15px;
+    margin-bottom: 12px;
+    width: 70%;
+    height: 50px;
+    background-color: transparent;
+    color: #3399CC;
+    border: 1px solid #3399CC;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: larger;
+    margin-left: 10px;
+}
+.p {
+    margin-bottom: 10px;
+}
+.google-btn{
+    margin-bottom: 35px;
+    width: 70%;
+    height: 47px;
+    background-color: transparent;
+    border: 1px solid grey;
+    border-radius: 2px;
+    font-size: large;
+    cursor: pointer;
+
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.form a {
+    color: #3399CC;
+    font-size: 16px;
+    margin-bottom: 7px;
+}
+@media(max-width:450px) {
+
+    .container {
+         width: 100vw;
+         height: 100vh;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         padding: 0;
+         background-color: white;
+    }
+
+    .text-setion{
+         display: none;
+    }
+
+    .form-login-section {
+         width: 100%;
+         height: 100vh;
+         background-color: #fff;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+    }
+    .login-form{
+         width: 98%;
+         height: 96%;
+         border: none;
+         padding: 50px 0;
+    }
+    
+    .login-form h1 {
+         font-size: 4.2vw;
+    }
+    .login-form img{
+         width:35%
+    }
+    
+
+    .login-links{
+         width: 100%;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         flex-direction: column;
+    }
+
+    .login1{
+         width: 100%;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         margin-bottom: 1px;
+    }
+
+    .login2 {
+         width: 100%;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+    }
+    .create-btn{
+         width: 70%;
+         padding: 1vw 0;
+    }
+    .google-btn{
+         width: 70%;
+         padding: 1vw 0;
+    }
+}
+
+
+
+@media(min-width:451px) and (max-width:850px) {
+
+    .container {
+         width: 100vw;
+         height: 100vh;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         padding: 100px;
+         background-color: white;
+    }
+
+    .text-setion{
+         display: none;
+    }
+
+    .form-login-section {
+         width: 100vw;
+         height: 100vh;
+         background-color: #fff;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+    }
+    .login-form{
+         width: 82%;
+         height: 99%;
+         border: 1px solid grey;
+         padding: 50px 0;
+    }
+    
+    .login-form h1 {
+         font-size: 2.5vw;
+    }
+    .login-form img{
+         width:33%
+    }
+    
+
+    .login-links{
+        width: 100%;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         flex-direction: column;
+    }
+
+    .login1{
+         width: 100%;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         margin-bottom: 1px;
+    }
+
+    .login2{
+         width: 100%;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+    }
+    .create-btn{
+         width: 70%;
+         padding: 1vw 0;
+    }
+    .google-btn{
+         width: 70%;
+         padding: 1vw 0;
+    }
+  
+
+}
+
